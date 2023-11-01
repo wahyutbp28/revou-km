@@ -1,0 +1,54 @@
+
+    .article-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article {
+        flex: 1;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .article {
+            flex: 0 0 100%; /* Mengubah elemen menjadi satu elemen per baris pada layar yang lebih kecil */
+        }
+    }
+
+
+    h1{
+        color:red;
+        text-align: center;
+    }
+    p{
+        font-size: 100px;
+    }
+
+    .classSelector{
+        color: blue;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #idSelector{
+        color: red;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .koplo:hover{
+        color: blue;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .container{
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding : 20px;
+        border : 2px solid black;
+    }
